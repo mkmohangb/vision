@@ -1,6 +1,6 @@
 # CNN
 
-Casting FC layer into Conv
+## Casting FC layer into Conv
 
 
 ### Karpathy's notes on FC->CONV conversion
@@ -33,3 +33,16 @@ In that scenario, the "fully connected layers" really act as 1x1 convolutions.
 
 ### Caffe Example
 [http://nbviewer.jupyter.org/github/BVLC/caffe/blob/master/examples/net_surgery.ipynb#Casting-a-Classifier-into-a-Fully-Convolutional-Network]()
+
+
+## Limitations of Deep Learning for Vision
+
+https://thegradient.pub/the-limitations-of-visual-deep-learning-and-how-we-might-fix-them/
+
+Main limitations:
+
+ * DeepLearning requires a large amount of annotated data. This biases vision researchers work on tasks where annotation is easy instead of tasks that are important.
+ * DeepNets perform well on benchmarked datasets, but can fail badly on real world images outside the dataset.
+ * DeepNets are overly sensitive to changes in the image which would not fool a human observer.
+
+
