@@ -1,6 +1,6 @@
 # CNN
 
-## Casting FC layer into Conv
+## 1. Casting FC layer into Conv
 
 
 ### Karpathy's notes on FC->CONV conversion
@@ -35,7 +35,7 @@ In that scenario, the "fully connected layers" really act as 1x1 convolutions.
 [http://nbviewer.jupyter.org/github/BVLC/caffe/blob/master/examples/net_surgery.ipynb#Casting-a-Classifier-into-a-Fully-Convolutional-Network]()
 
 
-## Limitations of Deep Learning for Vision
+## 2. Limitations of Deep Learning for Vision
 
 https://thegradient.pub/the-limitations-of-visual-deep-learning-and-how-we-might-fix-them/
 
