@@ -27,6 +27,7 @@ def conv_block(input_tensor, num_channels, padding, batch_norm):
     x = Activation('relu')(x)
     return x
 
+# Architecture taken from Keras CIFAR-10 CNN tutorial (Dropout removed)
 def get_model(batch_norm):
     input = Input(x_train.shape[1:])
     x = conv_block(input, 32, 'same', batch_norm)
