@@ -36,7 +36,7 @@ history_bn = get_model(True).fit(x_train, y_train, batch_size=60, epochs=epochs,
 
 plt.plot(history.history['val_acc'])
 plt.plot(history_bn.history['val_acc'])
-plt.title('Model accuracy')
+plt.title('Model accuracy: MNIST')
 plt.ylabel('Accuracy')
 plt.xlabel('Epoch')
 plt.legend(['Without BN', 'With BN'], loc='lower right')
