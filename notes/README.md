@@ -46,3 +46,14 @@ Main limitations:
  * DeepNets are overly sensitive to changes in the image which would not fool a human observer.
 
 
+## 3. [Training Efficient CNNs](https://www.youtube.com/watch?v=5cxn1M_0hoc)
+    1. Depthwise Convolutions
+    2. Global Average Pooling(GAP)
+    3. One Cycle LR
+    4. Cutout(CO)
+    5. Blurpool(BP)
+    6. Squeeze and Excite (SE)
+    7. Mixup
+    8. Label Smoothing
+    9. Sharpness aware Minimization (SAM)
+    10. Stochastic Weight Averaging (SWA)
