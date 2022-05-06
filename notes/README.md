@@ -57,3 +57,6 @@ Main limitations:
     8. Label Smoothing
     9. Sharpness aware Minimization (SAM)
     10. Stochastic Weight Averaging (SWA)
+    
+## 4. CNN Translation Invariance
+   - Quora answer by Jean Da Rolt https://qr.ae/pvYM5E
